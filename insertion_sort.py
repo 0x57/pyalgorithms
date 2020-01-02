@@ -1,5 +1,5 @@
 def insertion_sort(numbers):
-    if len(numbers) <= 0:
+    if len(numbers) <= 1:
         return numbers
     for i in range(1, len(numbers)):
         for j in range(i, 0, -1):
